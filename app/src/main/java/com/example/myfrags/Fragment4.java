@@ -45,6 +45,7 @@ public class Fragment4 extends Fragment {
             public void onChanged(Integer newInteger) {
                 turnOffWatcher = true;
                 edit.setText(newInteger.toString());
+                edit.setSelection(edit.length());
             }
         };
 
